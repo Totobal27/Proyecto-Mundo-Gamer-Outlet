@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(50deg, blue, green, red);
+  background: linear-gradient(90deg, blue, green, red);
 }
 
 header {
-  background-color: #f2f2f2;
+  background: linear-gradient(90deg, #0097b2, #7ed957);
   padding: 20px;
   text-align: center;
 
@@ -64,9 +64,9 @@ footer {
   align-items: center;
   padding-inline-start: 50px;
   color: white;
-
+  margin-bottom: 100px;
+  margin-inline: 400px;
 }
-
 
 
 .botones::before {
