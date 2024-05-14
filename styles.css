@@ -77,7 +77,7 @@ footer {
 }
 .ps5{
   background-color: #010068;
-  padding: 2%;
+  padding: 1%;
 }
 .xbox{
   background-color: #107b0f;
@@ -92,7 +92,7 @@ footer {
   height: 300px;
   border-radius: 200px;
   display: flex;
-  
+
 }
 
 .botones {
