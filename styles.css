@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #6f00ff;
+  background-color: #9400d3;
 }
 
 header {
-  background-color: #6f00ff;
+  background-color: #9400d3;
   padding: 20px;
   text-align: center;
   align-items: center;
@@ -28,6 +28,7 @@ header img {
   justify-content: center;
 }
 
+
 header ul {
   display: flex;
   margin-left: 12%;
@@ -47,7 +48,9 @@ nav ul li {
   display: inline;
   margin: 0 10px;
 }
-
+marquee{
+  background-color: yellow;
+}
 nav a {
   text-decoration: none;
 }
@@ -62,6 +65,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
+  margin-top: 16%;
 }
 
 .consola {
@@ -71,8 +75,28 @@ footer {
   justify-content: space-between;
   font-size: 100px;
 }
+.ps5{
+  background-color: #010068;
+  padding: 2%;
+}
+.xbox{
+  background-color: #107b0f;
+  padding: 2%;
+}
+.nintendo{
+  background-color: #e60012;
+  padding: 2%;
+}
+.consola img{
+  width: 500px;
+  height: 300px;
+  border-radius: 200px;
+  display: flex;
+  
+}
 
 .botones {
+
   background: black;
   cursor: pointer;
   border: none;
