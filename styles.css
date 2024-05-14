@@ -2,14 +2,41 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(90deg, blue, green, red);
+  background-color: #6f00ff;
 }
 
 header {
-  background: linear-gradient(90deg, #0097b2, #7ed957);
+  background-color: #6f00ff;
   padding: 20px;
   text-align: center;
+  align-items: center;
+  color: white;
 
+}
+
+header h1 {
+  display: flex;
+  margin-left: 10%;
+  margin-top: -5%;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul {
+  display: flex;
+  margin-left: 12%;
+  color: black;
+}
+
+a {
+  color: black;
+  transition: color white 0.3;
 }
 
 nav ul {
