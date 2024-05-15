@@ -35,22 +35,30 @@ header ul {
   color: black;
 }
 
+.lupa li {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+}
+
 a {
-  color: black;
-  transition: color white 0.3;
+  color: white;
 }
 
 nav ul {
   list-style: none;
+  color: white;
 }
 
 nav ul li {
   display: inline;
   margin: 0 10px;
 }
-marquee{
+
+marquee {
   background-color: yellow;
 }
+
 nav a {
   text-decoration: none;
 }
@@ -59,6 +67,15 @@ section {
   text-align: center;
   padding: 50px;
 }
+
+.usuario {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: -5%;
+}
+
 
 footer {
   background-color: #333;
@@ -75,19 +92,23 @@ footer {
   justify-content: space-between;
   font-size: 100px;
 }
-.ps5{
+
+.ps5 {
   background-color: #010068;
   padding: 1%;
 }
-.xbox{
+
+.xbox {
   background-color: #107b0f;
   padding: 2%;
 }
-.nintendo{
+
+.nintendo {
   background-color: #e60012;
   padding: 2%;
 }
-.consola img{
+
+.consola img {
   width: 500px;
   height: 300px;
   border-radius: 200px;
@@ -117,6 +138,7 @@ footer {
   color: white;
   margin-bottom: 100px;
   margin-inline: 400px;
+  justify-content: center;
 }
 
 
@@ -145,4 +167,62 @@ footer {
     background-position: 400% 0;
   }
 
+}
+.body2 {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #1e1e1e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #000;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button2 {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc5500;
 }
