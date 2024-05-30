@@ -228,14 +228,43 @@ footer {
   cursor: pointer;
 }
 
-button:hover {
+.button2:hover {
   background-color: #cc5500;
 }
 
 .imagen_compra {
   display: flex;
   background-color: #010068;
-  padding-top: 1%;
-  width: 1000px;
-  margin-left: -3%;
+  padding-top: -1%;
+  width: 100px;
+  margin-left: -8%;
 }
+.juego{
+  margin-left: 47%;
+  margin-top: -22%;
+  border-radius: 5%;
+  background-color:#4b0081;
+  color: white;
+  padding: 2%;
+  width: 200px;
+}
+.juego2{
+  margin-left: 63%;
+  margin-top: -22%;
+  border-radius: 5%;
+  background-color:#4b0081;
+  color: white;
+  padding: 2%;
+  width: 200px;
+}
+.juego3{
+  margin-left: 79%;
+  margin-top: -22%;
+  border-radius: 5%;
+  background-color:#4b0081;
+  color: white;
+  padding: 2%;
+  width: 199px;
+  height: 334px;
+}
+
