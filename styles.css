@@ -282,9 +282,32 @@ margin-top: -13%;
   width: 100px;
   margin-left: -8%;
 }
+.imagen_compra2 {
+  background-color: #107b0f;
+  width: 850px;
+  height: 430px;
+}
+.imagen_compra3 {
+  background-color: #e60012;
+  width: 850px;
+  height: 430px;
+}
+.nintendo-remove{
+  width: 800px;
+  height: 400px;
+
+}
+
+.xbox-remove{
+  width: 500px;
+  height: 500px;
+  margin-left: 20%;
+  margin-top: -3%;
+}
+
 
 .juego {
-  margin-left: 47%;
+  margin-left: 51.5%;
   margin-top: -22%;
   border-radius: 5%;
   background-color: #4b0081;
@@ -294,7 +317,7 @@ margin-top: -13%;
 }
 
 .juego2 {
-  margin-left: 63%;
+  margin-left: 68%;
   margin-top: -22%;
   border-radius: 5%;
   background-color: #4b0081;
@@ -304,7 +327,7 @@ margin-top: -13%;
 }
 
 .juego3 {
-  margin-left: 79%;
+  margin-left: 85%;
   margin-top: -22%;
   border-radius: 5%;
   background-color: #4b0081;
