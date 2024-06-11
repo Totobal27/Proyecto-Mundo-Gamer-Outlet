@@ -140,10 +140,53 @@ footer {
   align-items: center;
   padding-inline-start: 50px;
   color: white;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   margin-inline: 400px;
   justify-content: center;
 }
+
+.definicion {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  margin-bottom: -50px;
+  height: 200px;
+  width: 1000px;
+  margin-left: 1%;
+  margin-top: 5%;
+  font-size: 20px;
+  background-color: #4b0081;
+  padding: 2%;
+  border-radius: 1%;
+}
+
+.definicion2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding-inline-start: 50%;
+  margin-bottom: -20px;
+  font-size: 20px;
+}
+.definicion2 h3{
+  background-color:#4b0081;
+  padding: 2%;
+  border-radius: 1%;
+}
+.gamer{
+width: 600px;
+height: 400px;
+margin-left: 60%;
+margin-top: -13%;
+}
+.definicion2 img{
+  width: 4000px;
+  margin-left: -100%;
+  display: flex;
+}
+
 
 
 .botones::before {
@@ -239,32 +282,55 @@ footer {
   width: 100px;
   margin-left: -8%;
 }
-.juego{
+
+.juego {
   margin-left: 47%;
   margin-top: -22%;
   border-radius: 5%;
-  background-color:#4b0081;
+  background-color: #4b0081;
   color: white;
   padding: 2%;
   width: 200px;
 }
-.juego2{
+
+.juego2 {
   margin-left: 63%;
   margin-top: -22%;
   border-radius: 5%;
-  background-color:#4b0081;
+  background-color: #4b0081;
   color: white;
   padding: 2%;
   width: 200px;
 }
-.juego3{
+
+.juego3 {
   margin-left: 79%;
   margin-top: -22%;
   border-radius: 5%;
-  background-color:#4b0081;
+  background-color: #4b0081;
   color: white;
   padding: 2%;
   width: 199px;
   height: 334px;
 }
 
+.juegos {
+  border-radius: 5%;
+  background-color: #4b0081;
+  color: white;
+  padding: 2%;
+  width: 199px;
+  height: 334px;
+  margin: 20px;
+}
+
+.juegos img {
+  height: 250px;
+  width: 200px;
+}
+
+.juegos-flex {
+  display: flex;
+  margin-left: -0.5%;
+
+}
