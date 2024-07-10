@@ -144,6 +144,8 @@ a:hover {
 marquee {
   background-color: yellow;
   display: flex;
+  padding: 1%;
+  
 }
 
 footer {
@@ -219,7 +221,7 @@ footer {
   align-items: center;
   color: white;
   margin-bottom: -50px;
-  height: 200px;
+  height: 400px;
   width: 1000px;
   margin-left: 1%;
   margin-top: 5%;
@@ -374,7 +376,6 @@ footer {
 .xbox-remove {
   width: 500px;
   height: 500px;
-  margin-left: 20%;
   margin-top: -3%;
 }
 
@@ -383,9 +384,9 @@ footer {
   background-color: #4b0081;
   color: white;
   padding: 2%;
-  width: 199px;
-  height: 334px;
-  margin: 20px;
+  width: 280px;
+  height: 480 px;
+  margin: 25px;
 }
 
 .juegos img {
