@@ -403,3 +403,15 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
+
+#titulo{
+  font-size: xx-large;
+}
+
+#opciones{
+  font-size: large;
+}
+
+#sesion{
+  font-size: large;
+}
