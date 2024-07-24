@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/static/styles.css">
     <title>Seccion Xbox</title>
 </head>
 
@@ -14,12 +14,12 @@
             <ul class="menu">
                 <li class="logo"><a href="index.html"><img src="img/Preview__1_-ai-brush-removebg-vfh20d29.png"
                             alt=""></a></li>
-                <li id="titulo" class="titulo"><a href="/index.html">Mundo Gamer Outlet</a></li>
-                <li id="opciones" class="item"><a href="index.html">Inicio</a></li>
-                <li id="opciones" class="item"><a href="AcercaDe.html">Acerca de</a></li>
-                <li id="opciones" class="item"><a href="QuienesSomos.html">Quienes somos</a></li>
-                <li id="sesion" class="item button"><a href="registro.html">Registrarse</a></li>
-                <li id="sesion" class="item button secondary"><a href="usuario.html">Iniciar Sesion</a></li>
+                <li id="titulo" class="titulo"><a href="{{url_for('index')}}">Mundo Gamer Outlet</a></li>
+                <li id="opciones" class="item"><a href="{{url_for('index')}}">Inicio</a></li>
+                <li id="opciones" class="item"><a href="{{url_for('AcercaDe')}}">Acerca de</a></li>
+                <li id="opciones" class="item"><a href="{{url_for('QuienesSomos')}}">Quienes somos</a></li>
+                <li id="sesion" class="item button"><a href="{{url_for('registro')}}">Registrarse</a></li>
+                <li id="sesion" class="item button secondary"><a href="{{url_for('usuario')}}">Iniciar Sesion</a></li>
                 <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
             </ul>
         </nav>
@@ -36,21 +36,21 @@
     </div>
     <div class="todo">
         <div class="juegos">
-            <a href=""><img src="/img/forzahorizon.jpeg" alt=""> </a>
+            <a href="{{url_for('carrito')}}"><img src="/img/forzahorizon.jpeg" alt=""> </a>
             <p>Forza horizon 5 (X/S)</p>
             <p>Precio: 19.990 CLP</p>
             <button type="button" class="botones">Comprar</button>
 
         </div>
         <div class="juegos">
-            <a href=""><img src="/img/gears5.jpeg" alt=""></a>
+            <a href="{{url_for('carrito')}}"><img src="/img/gears5.jpeg" alt=""></a>
             <p>Gears Of War 5 (X/S)</p>
             <p>Precio: 39.990CLP</p>
             <button type="button" class="botones">Comprar</button>
 
         </div>
         <div class="juegos">
-            <a href=""> <img src="/img/dbz.jpg" alt=""></a>
+            <a href="{{url_for('carrito')}}"> <img src="/img/dbz.jpg" alt=""></a>
             <p>DB Sparking Zero (PS5) </p>
             <p>Proximamente</p>
         </div>
@@ -123,7 +123,7 @@
             <p>Gran Theft Auto V (X/S)</p>
             <p>Precio: 35.990 CLP</p>
             <button type="button" class="botones">Comprar</button>
-        </div>  
+        </div>
         <div class="juegos">
             <img src="/img/battlefield4.jpeg" alt="">
             <p>Battlefield 2042 (X)</p>

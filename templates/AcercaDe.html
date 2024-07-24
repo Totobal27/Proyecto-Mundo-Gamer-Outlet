@@ -4,24 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/static/styles.css">
     <title>Acerca De Nuestra Pagina</title>
 </head>
 
 <body>
     <header>
-<nav>
-<ul class="menu">
-    <li class="logo"><a href="index.html"><img src="img/Preview__1_-ai-brush-removebg-vfh20d29.png" alt=""></a></li>
-    <li id="titulo" class="titulo"><a href="/index.html">Mundo Gamer Outlet</a></li>
-    <li id="opciones" class="item"><a href="index.html">Inicio</a></li>
-    <li id="opciones" class="item"><a href="AcercaDe.html">Acerca de</a></li>
-    <li id="opciones" class="item"><a href="QuienesSomos.html">Quienes somos</a></li>
-    <li id="sesion" class="item button"><a href="registro.html">Registrarse</a></li>
-    <li id="sesion" class="item button secondary"><a href="usuario.html">Iniciar Sesion</a></li>
-    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-</ul>
-</nav>
+        <nav>
+            <ul class="menu">
+                <li class="logo"><a href="{{url_for('index')}}"><img
+                            src="/static/img/Preview__1_-ai-brush-removebg-vfh20d29.png" alt=""></a></li>
+                <li id="titulo" class="titulo"><a href="{{url_for('index')}}">Mundo Gamer Outlet</a></li>
+                <li id="opciones" class="item"><a href="{{url_for('index')}}">Inicio</a></li>
+                <li id="opciones" class="item"><a href="{{url_for('AcercaDe')}}">Acerca de</a></li>
+                <li id="opciones" class="item"><a href="{{url_for('QuienesSomos')}}">Quienes somos</a></li>
+                <li id="sesion" class="item button"><a href="{{url_for('registro')}}">Registrarse</a></li>
+                <li id="sesion" class="item button secondary"><a href="{{url_for('usuario')}}">Iniciar Sesion</a></li>
+                <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
     </header>
     <marquee>
         <div>
@@ -47,7 +48,7 @@
     </div>
     <img class="gamer" src="/img/1661451221419.jpg" alt="">
     <div class="definicion2">
-        <img class="money"  src="/img/photo-young-sad-businessman-over-260nw-595255721 (1).png" alt="">
+        <img class="money" src="/img/photo-young-sad-businessman-over-260nw-595255721 (1).png" alt="">
         <h3>
             Cuando se trata de comprar un juego rápidamente, hay varios factores que pueden influir en esta decisión.
             Por un lado, la emoción de querer disfrutar del juego lo antes posible puede ser un factor determinante. A
@@ -71,17 +72,17 @@
     <div class="consola">
         <div class="ps5"> <img src="/img/ps-logo_resized.webp" alt="">
             <div>
-                <a href="/Playstation.html"><Button class="botones">Playstation</Button></a>
+                <a href="{{url_for('Playstation')}}"><Button class="botones">Playstation</Button></a>
             </div>
         </div>
         <div class="xbox"> <img src="/img/xbox.jpeg" alt="">
             <div>
-                <a href="/Xbox.html"> <button class="botones">Xbox</button></a>
+                <a href="{{url_for('xbox')}}"> <button class="botones">Xbox</button></a>
             </div>
         </div>
         <div class="nintendo"><img src="/img/Nintendo.svg_resized.png" alt="">
             <div>
-                <a href="/nintendo.html"><button class="botones">Nintendo</button></a>
+                <a href="{{url_for('nintendo')}}"><button class="botones">Nintendo</button></a>
             </div>
         </div>
     </div>

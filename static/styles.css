@@ -15,31 +15,39 @@ nav {
   background: #9400d3;
   padding: 5px 20px;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   color: white;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 .logo a:hover {
   text-decoration: none;
 }
+
 .menu li {
   font-size: 16px;
   padding: 15px 5px;
   white-space: nowrap;
 }
+
 .logo a,
 .toggle a {
   font-size: 20px;
 }
+
 .button.secondary {
   border-bottom: 1px black solid;
 }
+
 /* Mobile menu */
 .menu {
   display: flex;
@@ -47,63 +55,79 @@ a:hover {
   justify-content: space-between;
   align-items: center;
 }
+
 .toggle {
   order: 1;
 }
+
 .item.button {
   order: 2;
 }
+
 .item {
   width: 100%;
   text-align: center;
   order: 3;
   display: none;
 }
+
 .item.active {
   display: block;
 }
+
 /* Tablet menu */
 @media all and (min-width: 600px) {
   .menu {
     justify-content: center;
   }
+
   .titulo {
     flex: 1;
   }
+
   .toggle {
     flex: 1;
     text-align: right;
   }
+
   .item.button {
     width: auto;
     order: 1;
     display: block;
   }
+
   .toggle {
     order: 2;
   }
+
   .button.secondary {
     border: 0;
   }
+
   .button a {
     padding: 7.5px 15px;
     background: #4b0081;
     border: 1px #006d6d solid;
   }
+
   .button.secondary a {
     background: transparent;
   }
+
   .button a:hover {
     text-decoration: none;
   }
+
   .button:not(.secondary) a:hover {
     background: #006d6d;
     border-color: #005959;
   }
+
   .button.secondary a:hover {
     color: #ddd;
   }
 }
+
 /* Desktop menu */
 @media all and (min-width: 900px) {
   .item {
@@ -112,13 +136,16 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
   }
+
   .toggle {
     display: none;
   }
+
   .logo {
     order: 0;
     width: 10vw;
   }
+
   .logo img {
     width: 10vw;
   }
@@ -128,24 +155,29 @@ a:hover {
     font-weight: 900;
     font-size: large;
   }
+
   .item {
     order: 1;
   }
+
   .button {
     order: 2;
   }
+
   .menu li {
     padding: 15px 10px;
   }
+
   .menu li.button {
     padding-right: 0;
   }
 }
+
 marquee {
   background-color: yellow;
   display: flex;
   padding: 1%;
-  
+
 }
 
 footer {
@@ -240,17 +272,20 @@ footer {
   margin-bottom: -20px;
   font-size: 20px;
 }
+
 .definicion2 h3 {
   background-color: #4b0081;
   padding: 2%;
   border-radius: 1%;
 }
+
 .gamer {
   width: 600px;
   height: 400px;
   margin-left: 60%;
   margin-top: -13%;
 }
+
 .definicion2 img {
   width: 4000px;
   margin-left: -100%;
@@ -265,17 +300,15 @@ footer {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    45deg,
-    red,
-    blue,
-    deeppink,
-    blue,
-    red,
-    blue,
-    deeppink,
-    blue
-  );
+  background: linear-gradient(45deg,
+      red,
+      blue,
+      deeppink,
+      blue,
+      red,
+      blue,
+      deeppink,
+      blue);
   background-size: 800%;
   border-radius: 10px;
   filter: blur(8px);
@@ -356,16 +389,19 @@ footer {
   background-color: #010068;
   justify-content: center;
 }
+
 .imagen_compra2 {
   background-color: #107b0f;
   display: flex;
   justify-content: center;
 }
+
 .imagen_compra3 {
   background-color: #e60012;
   display: flex;
   justify-content: center;
 }
+
 .nintendo-remove {
   width: 800px;
   height: 400px;
@@ -404,14 +440,24 @@ footer {
   flex-wrap: wrap;
 }
 
-#titulo{
+#titulo {
   font-size: xx-large;
 }
 
-#opciones{
+#opciones {
   font-size: large;
 }
 
-#sesion{
+#sesion {
   font-size: large;
+}
+
+.vicho {
+  height: 400px;
+  width: 400px;
+}
+
+.cris {
+  height: 400px;
+  width: 400px;
 }
