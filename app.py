@@ -33,9 +33,9 @@ def registro():
 def usuario():
     return render_template('usuario.html')
 
-@app.route('/xbox')
-def xbox():
-    return render_template('xbox.html')
+@app.route('/Xbox')
+def Xbox():
+    return render_template('Xbox.html')
 
 
 

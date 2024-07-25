@@ -12,8 +12,8 @@
     <header>
         <nav>
             <ul class="menu">
-                <li class="logo"><a href="index.html"><img src="/static/img/Preview__1_-ai-brush-removebg-vfh20d29.png"
-                            alt=""></a></li>
+                <li class="logo"><a href="{{url_for('index')}}"><img
+                            src="/static/img/Preview__1_-ai-brush-removebg-vfh20d29.png" alt=""></a></li>
                 <li id="titulo" class="titulo"><a href="{{url_for('index')}}">Mundo Gamer Outlet</a></li>
                 <li id="opciones" class="item"><a href="{{url_for('index')}}">Inicio</a></li>
                 <li id="opciones" class="item"><a href="{{url_for('AcercaDe')}}">Acerca de</a></li>
@@ -35,12 +35,13 @@
                 <a href="{{url_for('Playstation')}}"><Button class="botones">Playstation</Button></a>
             </div>
         </div>
-        <div class="xbox"> <a href="{{url_for('xbox')}}"> <img src="/static/img/xbox.jpeg" alt=""> </a>
+        <div class="xbox"> <a href="{{url_for('Xbox')}}"> <img src="/static/img/xbox.jpeg" alt=""> </a>
             <div>
-                <a href="{{url_for('xbox')}}"><button class="botones">Xbox</button> </a>
+                <a href="{{url_for('Xbox')}}"><button class="botones">Xbox</button> </a>
             </div>
         </div>
-        <div class="nintendo"> <a href="{{url_for('nintendo')}}"> <img src="/static/img/Nintendo.svg_resized.png" alt=""> </a>
+        <div class="nintendo"> <a href="{{url_for('nintendo')}}"> <img src="/static/img/Nintendo.svg_resized.png"
+                    alt=""> </a>
             <div>
                 <a href="{{url_for('nintendo')}}"><button class="botones">Nintendo</button></a>
             </div>
