@@ -46,9 +46,9 @@
             Xbox, Nintendo)
         </h3>
     </div>
-    <img class="gamer" src="/img/1661451221419.jpg" alt="">
+    <img class="gamer" src="/static/img/1661451221419.jpg" alt="">
     <div class="definicion2">
-        <img class="money" src="/img/photo-young-sad-businessman-over-260nw-595255721 (1).png" alt="">
+        <img class="money" src="/static/img/photo-young-sad-businessman-over-260nw-595255721 (1).png" alt="">
         <h3>
             Cuando se trata de comprar un juego rápidamente, hay varios factores que pueden influir en esta decisión.
             Por un lado, la emoción de querer disfrutar del juego lo antes posible puede ser un factor determinante. A
@@ -70,17 +70,17 @@
         </h3>
     </div>
     <div class="consola">
-        <div class="ps5"> <img src="/img/ps-logo_resized.webp" alt="">
+        <div class="ps5"> <a href="{{url_for('Playstation')}}"> <img src="/static/img/ps-logo_resized.webp" alt=""> </a>
             <div>
                 <a href="{{url_for('Playstation')}}"><Button class="botones">Playstation</Button></a>
             </div>
         </div>
-        <div class="xbox"> <img src="/img/xbox.jpeg" alt="">
+        <div class="xbox"> <a href="{{url_for('xbox')}}"> <img src="/static/img/xbox.jpeg" alt=""> </a>
             <div>
-                <a href="{{url_for('xbox')}}"> <button class="botones">Xbox</button></a>
+                <a href="{{url_for('xbox')}}"><button class="botones">Xbox</button> </a>
             </div>
         </div>
-        <div class="nintendo"><img src="/img/Nintendo.svg_resized.png" alt="">
+        <div class="nintendo"> <a href="{{url_for('nintendo')}}"> <img src="/static/img/Nintendo.svg_resized.png" alt=""> </a>
             <div>
                 <a href="{{url_for('nintendo')}}"><button class="botones">Nintendo</button></a>
             </div>

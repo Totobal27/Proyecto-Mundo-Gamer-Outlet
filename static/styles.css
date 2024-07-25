@@ -452,12 +452,28 @@ footer {
   font-size: large;
 }
 
+
+.quienessomos {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.fondo {
+  background-color: #4b0081;
+  display: flex;
+  color: white;
+  padding: 1%;
+  border-radius: 2%;
+}
+
+
 .vicho {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
 }
 
 .cris {
   height: 400px;
-  width: 400px;
+  width: 300px;
 }
