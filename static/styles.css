@@ -454,31 +454,37 @@ footer {
 
 .fondo2 {
   background-color: #4b0081;
-  width: 200vh;
+  width: 150vh;
   color: white;
-  padding: 0.5%;
-  border-radius: 2%;
+  padding: 2%;
   display: flex;
   font-size: 20px;
   margin-top: 5%;
+  margin-left: 5%;
 }
 
 
 
 .fondo {
   background-color: #4b0081;
-  width: 200vh;
+  width: 150vh;
   color: white;
-  padding: 0.5%;
-  border-radius: 2%;
+  padding: 2%;
+  margin-top: 5%;
   display: flex;
   font-size: 20px;
+  margin-left: 5%;
 }
 
 /*vh: estatico
   vw: responsive
 */
-
+#Q {
+  color: white;
+  justify-content: center;
+  display: flex;
+  font-size: 500%;
+}
 
 
 
@@ -491,6 +497,6 @@ footer {
 
 .cris {
   height: 300px;
-  width: 200px;
+  width: 300px;
   border-radius: 5%;
 }
