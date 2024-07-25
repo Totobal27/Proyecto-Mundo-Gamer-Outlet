@@ -452,28 +452,45 @@ footer {
   font-size: large;
 }
 
-
-.quienessomos {
+.fondo2 {
+  background-color: #4b0081;
+  width: 200vh;
+  color: white;
+  padding: 0.5%;
+  border-radius: 2%;
   display: flex;
-  justify-content: space-around;
-  
+  font-size: 20px;
+  margin-top: 5%;
 }
+
+
 
 .fondo {
   background-color: #4b0081;
-  display: flex;
+  width: 200vh;
   color: white;
-  padding: 1%;
+  padding: 0.5%;
   border-radius: 2%;
+  display: flex;
+  font-size: 20px;
 }
+
+/*vh: estatico
+  vw: responsive
+*/
+
+
+
 
 
 .vicho {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
+  border-radius: 5%;
 }
 
 .cris {
-  height: 400px;
-  width: 300px;
+  height: 300px;
+  width: 200px;
+  border-radius: 5%;
 }
