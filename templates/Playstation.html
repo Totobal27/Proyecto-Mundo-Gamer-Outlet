@@ -34,18 +34,18 @@
             <img src="/static/img/ps-logo_resized.webp" alt="">
         </div>
         <div class="todo">
-            <div class="juegos">
+            <div data-id="12" data-nombre="God Of War Ragnarok" data-precio="48327" class="juegos">
                 <a href="{{url_for('carrito')}}"><img src="/static/img/ragnarok.jpg" alt=""> </a>
                 <p>God of war Ragnarok (PS4)</p>
                 <p>Precio: 48.327 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(12)" type="button" class="botones">Comprar</button>
 
             </div>
-            <div class="juegos">
+            <div data-id="11" data-nombre="FC 2024 (PS5)" data-precio="68662" class="juegos">
                 <a href="{{url_for('carrito')}}"><img src="/static/img/fc24.jpg" alt=""></a>
                 <p>Fc 2024 (PS5)</p>
                 <p>Precio: 68.662 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(11)" type="button" class="botones">Comprar</button>
 
             </div>
             <div class="juegos">
@@ -54,76 +54,77 @@
                 <p>Proximamente</p>
             </div>
 
-            <div class="juegos">
+            <div data-id="10" data-nombre="Among us (PS5)" data-precio="4610" class="juegos">
                 <img src="/static/img/among us.jpg" alt="">
                 <p>Among us (PS5)</p>
                 <p>Precio: 4.610 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(10)" type="button" class="botones">Comprar</button>
             </div>
-            <div class="juegos">
+            <div data-id="9" data-nombre="Mortal Kombat 1 (PS5)" data-precio="54990" class="juegos">
                 <img src="/static/img/mk1.jpg" alt="">
                 <p>Mortal Kombat 1(PS5)</p>
                 <p>Precio: 54.990 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(9)" type="button" class="botones">Comprar</button>
 
             </div>
-            <div class="juegos">
+            <div data-id="8" data-nombre="Grand Theft Auto V (PS4)" data-precio="22990" class="juegos">
                 <img src="/static/img/GTA V.jpg" alt="">
                 <p>Grand Theft Auto V (PS4)</p>
                 <p>Precio: 22.990 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(8)" type="button" class="botones">Comprar</button>
             </div>
-            <div class="juegos">
+            <div data-id="7" data-nombre="The Last Of Us Remastered (PS5)" data-precio="44990" class="juegos">
                 <img src="/static/img/TheLastOfUs.jpg" alt="">
                 <p>The Last Of Us Remastered (PS5)</p>
                 <p>Precio:44.990 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(7)" type="button" class="botones">Comprar</button>
             </div>
-            <div class="juegos">
+            <div  class="juegos">
                 <img src="/static/img/CallOfDuty6.jpg" alt="">
                 <p>Call Of Duty Black Ops 6 (PS5)</p>
                 <p>Proximamente</p>
 
             </div>
-            <div class="juegos">
+            <div data-id="6" data-nombre="Mortal Kombat 11 (PS4)" data-precio="33990" class="juegos">
                 <img src="/static/img/MK11.jpg" alt="">
                 <p>Mortal Kombat 11(PS4)</p>
                 <p>Precio: 33.990 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(6)" type="button" class="botones">Comprar</button>
             </div>
-            <div class="juegos">
+            <div data-id="5" data-nombre="SPIDER-MAN 2 (PS5)" data-precio="44990" class="juegos">
                 <img src="/static/img/Spider-man.jpg" alt="">
                 <p>SPIDER-MAN 2 (PS5) </p>
                 <p>Precio: 44.990 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(5)" type="button" class="botones">Comprar</button>
             </div>
-            <div class="juegos">
+            <div data-id="4" data-nombre="Uncharted
+                    legacy of thieves COLLECTION (PS5)" data-precio="29990" class="juegos">
                 <img src="/static/img/Uncharted.jpg" alt="">
                 <p>Uncharted
                     legacy of thieves COLLECTION (PS5)
                 </p>
                 <p>Precio: 29.990 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(4)" type="button" class="botones">Comprar</button>
             </div>
-            <div class="juegos">
+            <div  class="juegos">
                 <img src="/static/img/gtaVl.jpeg" alt="">
                 <p>Gran Theft Auto Vl (PS5)</p>
                 <p>Proximamente</p>
 
             </div>
-            <div class="juegos">
+            <div data-id="3" data-nombre="Red dead redemption (PS4)" data-precio="18990" class="juegos">
                 <img src="/static/img/reddeadredemption.jpeg" alt="">
                 <p>Red dead redemption II (PS4)</p>
                 <p>Precio: 18.990 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(3)" type="button" class="botones">Comprar</button>
             </div>
-            <div data-id="2" data-nombre="God Of War III Remastered" data-precio="14990" class="juegos">
+            <div data-id="2" data-nombre="God Of War III Remastered(PS4)" data-precio="14990" class="juegos">
                 <img src="/static/img/Gow3.jpeg" alt="">
                 <p>God Of War III Remastered (PS4)</p>
                 <p>Precio: 14.990 CLP</p>
                 <button onclick="agregarAlCarrito(2)" type="button" class="botones">Comprar</button>
             </div>
-            <div data-id="1" data-nombre="Assasin's creed UNITY" data-precio="27990" class="juegos">
+            <div data-id="1" data-nombre="Assasin's creed UNITY (PS5)" data-precio="27990" class="juegos">
                 <img src="/static/img/assassinscreed.jpeg" alt="">
                 <p>Assassin´s creed UNITY (PS5)</p>
                 <p>Precio: 27.990CLP</p>
