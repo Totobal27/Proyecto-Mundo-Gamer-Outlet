@@ -117,18 +117,25 @@
                 <p>Precio: 18.990 CLP</p>
                 <button type="button" class="botones">Comprar</button>
             </div>
-            <div class="juegos">
+            <div data-id="2" data-nombre="God Of War III Remastered" data-precio="14990" class="juegos">
                 <img src="/static/img/Gow3.jpeg" alt="">
                 <p>God Of War III Remastered (PS4)</p>
                 <p>Precio: 14.990 CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(2)" type="button" class="botones">Comprar</button>
             </div>
-            <div class="juegos">
+            <div data-id="1" data-nombre="Assasin's creed UNITY" data-precio="27990" class="juegos">
                 <img src="/static/img/assassinscreed.jpeg" alt="">
                 <p>Assassin´s creed UNITY (PS5)</p>
                 <p>Precio: 27.990CLP</p>
-                <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(1)" type="button" class="botones">Comprar</button>
             </div>
+
+
+
+            <h2 class="">Productos a pagar</h2>
+            <ul id="carrito">
+
+            </ul>
 
         </div>
     </div>
@@ -137,6 +144,31 @@
     <footer>
         <p>&copy; 2024 Mi Página - Creada por Totobal Y Lolito</p>
     </footer>
+    <script>
+        let carrito = [];
+
+        function agregarAlCarrito(id) {
+            const productoElegido = document.querySelector(`[data-id="${id}"]`);
+            const nombre = productoElegido.getAttribute('data-nombre');
+            const precio = parseInt(productoElegido.getAttribute('data-precio'));
+
+            carrito.push({ id, nombre, precio });
+
+            mostrarCarrito();
+        }
+
+        function mostrarCarrito() {
+            const carritoElement = document.getElementById('carrito');
+            carritoElement.innerHTML = '';
+
+            carrito.forEach(producto => {
+                const li = document.createElement('li');
+                li.textContent = `${producto.nombre} - $${producto.precio}`;
+
+                carritoElement.appendChild(li);
+            });
+        }
+    </script>
 </body>
 
 </html>

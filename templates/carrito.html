@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+</head>
+
+<body>
+    <h1>Productos Disponibles</h1>
+    <ul id="productos">
+        <li data-id="1" data-nombre="Camiseta Gamer" data-precio="20">Camiseta Gamer - $20 <button
+                onclick="agregarAlCarrito(1)">Agregar al Carrito</button></li>
+        <li data-id="2" data-nombre="Mouse RGB" data-precio="30">Mouse RGB - $30 <button
+                onclick="agregarAlCarrito(2)">Agregar al Carrito</button></li>
+        <li data-id="3" data-nombre="Teclado Mecánico" data-precio="50">Teclado Mecánico - $50 <button
+                onclick="agregarAlCarrito(3)">Agregar al Carrito</button></li>
+    </ul>
+
+    <h2>Carrito de Compras</h2>
+    <ul id="carrito">
+        <!-- Aquí se mostrarán los productos agregados al carrito -->
+    </ul>
+
+    <script>
+        let carrito = [];
+
+        function agregarAlCarrito(id) {
+            const productoElegido = document.querySelector(`[data-id="${id}"]`);
+            const nombre = productoElegido.getAttribute('data-nombre');
+            const precio = parseInt(productoElegido.getAttribute('data-precio'));
+
+            carrito.push({ id, nombre, precio });
+
+            mostrarCarrito();
+        }
+
+        function mostrarCarrito() {
+            const carritoElement = document.getElementById('carrito');
+            carritoElement.innerHTML = '';
+
+            carrito.forEach(producto => {
+                const li = document.createElement('li');
+                li.textContent = `${producto.nombre} - $${producto.precio}`;
+
+                carritoElement.appendChild(li);
+            });
+        }
+    </script>
+</body>
+
+</html>
