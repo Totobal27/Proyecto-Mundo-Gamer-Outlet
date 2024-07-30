@@ -61,7 +61,7 @@
 <body>
   <div class="registro">
     <h2>Registrate!!!</h2>
-    <form action="{{url_for('index')}}">
+    <form action="/registro" method="post">
       <input type="text" name="nombre" placeholder="Nombre de usuario" required />
       <input type="email" name="email" placeholder="Correo electrónico" required />
       <input type="password" name="password" placeholder="Contraseña" required />
