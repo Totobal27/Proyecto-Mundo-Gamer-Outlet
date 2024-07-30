@@ -487,8 +487,6 @@ footer {
 }
 
 
-
-
 .vicho {
   height: 200px;
   width: 200px;
@@ -499,4 +497,13 @@ footer {
   height: 300px;
   width: 300px;
   border-radius: 5%;
+}
+
+.comprar2 {
+  display: flex;
+  background-color: #4b0081;
+  color: white;
+  border-radius: 4%;
+  padding: 3%;
+  flex-direction: column;
 }
