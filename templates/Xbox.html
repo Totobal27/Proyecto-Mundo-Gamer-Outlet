@@ -35,18 +35,18 @@
         </div>
     </div>
     <div class="todo">
-        <div class="juegos">
+            <div data-id="13" data-nombre="Forza Horizon 5" data-precio="19990" class="juegos"> 
             <a href="{{url_for('carrito')}}"><img src="/static/img/forzahorizon.jpeg" alt=""> </a>
             <p>Forza horizon 5 (X/S)</p>
             <p>Precio: 19.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(13)" type="button" class="botones">Comprar</button>
 
         </div>
-        <div class="juegos">
+            <div data-id="12" data-nombre="Gears Of War 5" data-precio="39990" class="juegos"> 
             <a href="{{url_for('carrito')}}"><img src="/static/img/gears5.jpeg" alt=""></a>
             <p>Gears Of War 5 (X/S)</p>
             <p>Precio: 39.990CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(12)" type="button" class="botones">Comprar</button>
 
         </div>
         <div class="juegos">
@@ -55,30 +55,30 @@
             <p>Proximamente</p>
         </div>
 
-        <div class="juegos">
+            <div data-id="11" data-nombre="Mortal Kombat 1" data-precio="54990" class="juegos"> 
             <img src="/static/img/mk1.jpg" alt="">
             <p>Mortal kombat 1 (X/S)</p>
             <p>Precio: 54.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(11)" type="button" class="botones">Comprar</button>
         </div>
-        <div class="juegos">
+            <div data-id="10" data-nombre="Halo Infinite" data-precio="21990" class="juegos"> 
             <img src="/static/img/halo.jpeg" alt="">
             <p> Halo Infinite (X/S)</p>
             <p>Precio: 21.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(10)" type="button" class="botones">Comprar</button>
 
         </div>
-        <div class="juegos">
+            <div data-id="9" data-nombre="Guardians Of The Galaxy" data-precio="10990" class="juegos"> 
             <img src="/static/img/guardiasofthegalaxy.jpeg" alt="">
             <p>Guardians Of The Galaxy (PS4)</p>
             <p>Precio: 10.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(9)" type="button" class="botones">Comprar</button>
         </div>
-        <div class="juegos">
+            <div data-id="8" data-nombre="Assasin's Creed Valhalla" data-precio="39990" class="juegos"> 
             <img src="/static/img/valhala.jpeg" alt="">
-            <p>Assassin´s Creed Valhala (PS5)</p>
+            <p>Assassin´s Creed Valhalla (X/S)</p>
             <p>Precio:39.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(8)" type="button" class="botones">Comprar</button>
         </div>
         <div class="juegos">
             <img src="/static/img/bo6xbox.jpeg" alt="">
@@ -86,43 +86,41 @@
             <p>Proximamente</p>
 
         </div>
-        <div class="juegos">
+            <div data-id="7" data-nombre="Fc 2024" data-precio="29990" class="juegos"> 
             <img src="/static/img/fc2024xbox.jpeg" alt="">
             <p>Fc 2024(X/S)</p>
             <p>Precio: 29.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(7)" type="button" class="botones">Comprar</button>
         </div>
-        <div class="juegos">
+            <div data-id="6" data-nombre="Cyberpunk" data-precio="20990" class="juegos"> 
             <img src="/static/img/cyberpunk.jpeg" alt="">
             <p> Cyberpunk (X/S) </p>
             <p>Precio: 20.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(6)" type="button" class="botones">Comprar</button>
         </div>
-        <div class="juegos">
+            <div data-id="5" data-nombre="Persona 5 Tactica" data-precio="39990" class="juegos"> 
             <img src="/static/img/persona5.jpeg" alt="">
-            <p>
-                Persona 5 Tactica (X/S, One)
-            </p>
+            <p>Persona 5 Tactica (X/S, One)</p>
             <p>Precio: 39.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(5)" type="button" class="botones">Comprar</button>
         </div>
-        <div class="juegos">
+            <div data-id="4" data-nombre="Resident Evil 4" data-precio="19990" class="juegos"> 
             <img src="/static/img/residentevil4.jpeg" alt="">
             <p>Resident Evil 4 (X/S)</p>
             <p>Precio: 19.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(4)" type="button" class="botones">Comprar</button>
         </div>
-        <div class="juegos">
+            <div data-id="3" data-nombre="Crash Bandicoot 4" data-precio="24990" class="juegos"> 
             <img src="/static/img/crash.jpeg" alt="">
             <p>Crash Bandicoot 4 (X)</p>
             <p>Precio: 24.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(3)" type="button" class="botones">Comprar</button>
         </div>
-        <div class="juegos">
+            <div data-id="2" data-nombre="Grand Theft Auto V" data-precio="35990" class="juegos"> 
             <img src="/static/img/gtavxbox.jpeg" alt="">
-            <p>Gran Theft Auto V (X/S)</p>
+            <p>Grand Theft Auto V (X/S)</p>
             <p>Precio: 35.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+                <button onclick="agregarAlCarrito(2)" type="button" class="botones">Comprar</button>
         </div>
         <div data-id="1" data-nombre="Battlefield 2042" data-precio="24990" class="juegos">
             <img src="/static/img/battlefield4.jpeg" alt="">
