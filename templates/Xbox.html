@@ -124,12 +124,17 @@
             <p>Precio: 35.990 CLP</p>
             <button type="button" class="botones">Comprar</button>
         </div>
-        <div class="juegos">
+        <div data-id="1" data-nombre="Battlefield 2042" data-precio="24990" class="juegos">
             <img src="/static/img/battlefield4.jpeg" alt="">
             <p>Battlefield 2042 (X)</p>
             <p>Precio: 24.990 CLP</p>
-            <button type="button" class="botones">Comprar</button>
+            <button onclick="agregarAlCarrito(1)" type="button" class="botones">Comprar</button>
         </div>
+
+        <h2>Productos a pagar : </h2>
+        <h3 id="carrito">
+
+        </h3>
 
     </div>
     </div>
@@ -139,6 +144,31 @@
     <footer>
         <p>&copy; 2024 Mi Página - Creada por Totobal Y Lolito</p>
     </footer>
+    <script>
+        let carrito = [];
+
+        function agregarAlCarrito(id) {
+            const productoElegido = document.querySelector(`[data-id="${id}"]`);
+            const nombre = productoElegido.getAttribute('data-nombre');
+            const precio = parseInt(productoElegido.getAttribute('data-precio'));
+
+            carrito.push({ id, nombre, precio });
+
+            mostrarCarrito();
+        }
+
+        function mostrarCarrito() {
+            const carritoElement = document.getElementById('carrito');
+            carritoElement.innerHTML = '';
+
+            carrito.forEach(producto => {
+                const li = document.createElement('li');
+                li.textContent = `${producto.nombre} - $${producto.precio}`;
+
+                carritoElement.appendChild(li);
+            });
+        }
+    </script>
 </body>
 
 </html>
